@@ -6,6 +6,7 @@ from streamlit_pandas_profiling import st_profile_report
 
 st.title("Exploratort Data Analysis using Pandas Profiling")
 
+st.set_page_config("Pandas Profiling")
 st.sidebar.markdown(""" **Developed by** [M.Arslan Akram](https://www.linkedin.com/in/arslanakram1/)
     """)
 st.sidebar.markdown(""" **Source Code ** [Github](https://github.com/MuhammadArslanAkram/pandas_profiling)
